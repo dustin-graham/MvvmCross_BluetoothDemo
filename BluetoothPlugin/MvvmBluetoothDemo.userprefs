@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Rain.BluetoothPlugin.Touch/Plugin.cs">
+    <Files>
+      <File FileName="BluetoothPlugin.Core/IBluetoothAdapter.cs" Line="5" Column="31" />
+      <File FileName="BluetoothPlugin.Core/BluetoothDevice.cs" Line="3" Column="31" />
+      <File FileName="BluetoothPlugin.Core/PluginLoader.cs" Line="5" Column="11" />
+      <File FileName="Rain.BluetoothPlugin.Droid/packages.config" Line="1" Column="1" />
+      <File FileName="Rain.BluetoothPlugin.Droid/MvxBluetoothAdapter.cs" Line="50" Column="4" />
+      <File FileName="Rain.BluetoothPlugin.Droid/Plugin.cs" Line="8" Column="3" />
+      <File FileName="Rain.BluetoothPlugin.Touch/Plugin.cs" Line="13" Column="68" />
+      <File FileName="Rain.BluetoothPlugin.Touch/MvxBluetoothAdapter.cs" Line="41" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

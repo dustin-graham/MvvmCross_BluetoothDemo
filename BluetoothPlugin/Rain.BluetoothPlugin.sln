@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rain.BluetoothPlugin", "BluetoothPlugin.Core\Rain.BluetoothPlugin.csproj", "{8366F9B2-2175-4EC6-BF9C-7566CF4A83DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rain.BluetoothPlugin.Droid", "Rain.BluetoothPlugin.Droid\Rain.BluetoothPlugin.Droid.csproj", "{B53D31DC-F01A-4291-93E5-D58FE84ACBB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rain.BluetoothPlugin.Touch", "Rain.BluetoothPlugin.Touch\Rain.BluetoothPlugin.Touch.csproj", "{56EB2536-90E8-4389-ADE8-49144C206BD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56EB2536-90E8-4389-ADE8-49144C206BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EB2536-90E8-4389-ADE8-49144C206BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EB2536-90E8-4389-ADE8-49144C206BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EB2536-90E8-4389-ADE8-49144C206BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8366F9B2-2175-4EC6-BF9C-7566CF4A83DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8366F9B2-2175-4EC6-BF9C-7566CF4A83DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8366F9B2-2175-4EC6-BF9C-7566CF4A83DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8366F9B2-2175-4EC6-BF9C-7566CF4A83DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53D31DC-F01A-4291-93E5-D58FE84ACBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53D31DC-F01A-4291-93E5-D58FE84ACBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53D31DC-F01A-4291-93E5-D58FE84ACBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53D31DC-F01A-4291-93E5-D58FE84ACBB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Rain.BluetoothPlugin.Touch\Rain.BluetoothPlugin.Touch.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+/Users/dustin/Projects/BluetoothPlugin/BluetoothPlugin.Core/obj/Release/.NETPortable,Version=v4.5,Profile=Profile49.AssemblyAttribute.cs
+/Users/dustin/Projects/BluetoothPlugin/BluetoothPlugin.Core/bin/Release/BluetoothPlugin.Core.dll.mdb
+/Users/dustin/Projects/BluetoothPlugin/BluetoothPlugin.Core/bin/Release/BluetoothPlugin.Core.dll
+/Users/dustin/Projects/BluetoothPlugin/BluetoothPlugin.Core/obj/Release/BluetoothPlugin.Core.dll
+/Users/dustin/Projects/BluetoothPlugin/BluetoothPlugin.Core/obj/Release/BluetoothPlugin.Core.dll.mdb
+/Users/dustin/Projects/BluetoothPlugin/BluetoothPlugin.Core/bin/Release/Cirrious.CrossCore.dll
+/Users/dustin/Projects/BluetoothPlugin/BluetoothPlugin.Core/bin/Release/Cirrious.MvvmCross.Localization.dll
+/Users/dustin/Projects/BluetoothPlugin/BluetoothPlugin.Core/bin/Release/Cirrious.MvvmCross.dll

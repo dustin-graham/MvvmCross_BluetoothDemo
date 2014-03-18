@@ -1,0 +1,10 @@
+/Users/dustin/Projects/BluetoothDemo/BluetoothDemo.Core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile49.AssemblyAttribute.cs
+/Users/dustin/Projects/BluetoothDemo/BluetoothDemo.Core/bin/Debug/BluetoothDemo.Core.dll.mdb
+/Users/dustin/Projects/BluetoothDemo/BluetoothDemo.Core/bin/Debug/BluetoothDemo.Core.dll
+/Users/dustin/Projects/BluetoothDemo/BluetoothDemo.Core/obj/Debug/BluetoothDemo.Core.dll
+/Users/dustin/Projects/BluetoothDemo/BluetoothDemo.Core/obj/Debug/BluetoothDemo.Core.dll.mdb
+/Users/dustin/Projects/BluetoothDemo/BluetoothDemo.Core/bin/Debug/Cirrious.CrossCore.dll
+/Users/dustin/Projects/BluetoothDemo/BluetoothDemo.Core/bin/Debug/Cirrious.MvvmCross.Localization.dll
+/Users/dustin/Projects/BluetoothDemo/BluetoothDemo.Core/bin/Debug/Cirrious.MvvmCross.dll
+/Users/dustin/Projects/BluetoothDemo/BluetoothDemo.Core/bin/Debug/BluetoothPlugin.Core.dll
+/Users/dustin/Projects/BluetoothDemo/BluetoothDemo.Core/bin/Debug/BluetoothPlugin.Core.dll.mdb
