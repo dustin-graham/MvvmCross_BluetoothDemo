@@ -1,12 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BluetoothPlugin/Rain.BluetoothPlugin.Droid/MvxBluetoothManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BluetoothDemo.Core/ViewModels/FirstViewModel.cs">
     <Files>
-      <File FileName="BluetoothPlugin/Rain.BluetoothPlugin.Droid/MvxBluetoothManager.cs" Line="15" Column="55" />
-      <File FileName="BluetoothPlugin/Rain.BluetoothPlugin/IBluetoothManager.cs" Line="9" Column="43" />
-      <File FileName="../../Downloads/BluetoothLEExplorer/BluetoothLEExplorer.Droid/BluetoothLEManager.cs" Line="9" Column="36" />
-      <File FileName="../../Downloads/BluetoothLEExplorer/BluetoothLEExplorer.Droid/Screens/Scanner/Home/ScannerHome.cs" Line="102" Column="5" />
-      <File FileName="BluetoothDemo.Core/ViewModels/FirstViewModel.cs" Line="30" Column="9" />
+      <File FileName="BluetoothPlugin/Rain.BluetoothPlugin.Droid/MvxBluetoothManager.cs" Line="15" Column="72" />
+      <File FileName="../../Downloads/BluetoothLEExplorer/BluetoothLEExplorer.Droid/BluetoothLEManager.cs" Line="1" Column="1" />
+      <File FileName="BluetoothDemo.Core/ViewModels/FirstViewModel.cs" Line="49" Column="38" />
+      <File FileName="BluetoothPlugin/Rain.BluetoothPlugin/BluetoothDevice.cs" Line="5" Column="2" />
+      <File FileName="../../Documents/workspace_xamarin/NPlus1DaysOfMvvmCross/N-11-KittenView_Collections/KittenView.Core/ViewModels/FirstViewModel.cs" Line="1" Column="1" />
+      <File FileName="../../Documents/workspace_xamarin/NPlus1DaysOfMvvmCross/N-17-CollectABull-Part6/CollectABull.Core/ViewModels/ListViewModel.cs" Line="1" Column="1" />
+      <File FileName="../../Documents/workspace_xamarin/NPlus1DaysOfMvvmCross/N-10-KittensDb/KittensDb.Core/ViewModels/FirstViewModel.cs" Line="1" Column="1" />
+      <File FileName="../../Downloads/BluetoothLEExplorer/BluetoothLEExplorer.Droid/Screens/Scanner/ServiceDetails/ServiceDetailsScreen.cs" Line="1" Column="1" />
+      <File FileName="../../Downloads/BluetoothLEExplorer/BluetoothLEExplorer.Droid/Screens/Scanner/DeviceDetails/DeviceDetailsScreen.cs" Line="1" Column="1" />
+      <File FileName="BluetoothPlugin/Rain.BluetoothPlugin.Touch/MvxBluetoothManager.cs" Line="1" Column="1" />
+      <File FileName="BluetoothDemo.Android/Setup.cs" Line="1" Column="1" />
+      <File FileName="BluetoothPlugin/Rain.BluetoothPlugin/PluginLoader.cs" Line="1" Column="1" />
+      <File FileName="BluetoothPlugin/Rain.BluetoothPlugin/IBluetoothManager.cs" Line="14" Column="46" />
+      <File FileName="BluetoothPlugin/Rain.BluetoothPlugin.Droid/Plugin.cs" Line="14" Column="74" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

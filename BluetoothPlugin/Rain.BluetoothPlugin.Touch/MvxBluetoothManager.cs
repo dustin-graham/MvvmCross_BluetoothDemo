@@ -34,6 +34,11 @@ namespace Rain.BluetoothPlugin.Touch
 
 		#region IBluetoothAdapter implementation
 
+		public Task<BluetoothDevice> ConnectToDeviceAsync (string deviceAddress)
+		{
+			throw new NotImplementedException ();
+		}
+
 		public event EventHandler<DeviceDiscoveredEventArgs> OnDeviceDiscovered;
 
 		public async void StartScanForDevices ()

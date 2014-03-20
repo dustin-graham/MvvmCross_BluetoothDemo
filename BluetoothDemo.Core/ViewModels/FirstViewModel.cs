@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Cirrious.CrossCore;
 
 namespace BluetoothDemo.Core.ViewModels
 {
@@ -34,7 +35,7 @@ namespace BluetoothDemo.Core.ViewModels
 		private IMvxCommand _scanCommand;
 		public IMvxCommand ScanCommand {
 			get {
-				_scanCommand = _scanCommand ?? new MvxCommand ( async () => {
+				_scanCommand = _scanCommand ?? new MvxCommand (() => {
 					if (_isScanning) return;
 					_isScanning = true;
 					DoScan();
@@ -52,8 +53,10 @@ namespace BluetoothDemo.Core.ViewModels
 		{
 			get
 			{
-				return new MvxCommand<BluetoothDevice>(item => {
-					_btManager.ConnectToDevice(item.DeviceAddress);
+				return new MvxCommand<BluetoothDevice>(async item => {
+//					_btManager.ConnectToDevice(item.DeviceAddress);
+					BluetoothDevice connectedDevice = await _btManager.ConnectToDeviceAsync("1234");
+					Mvx.Trace("connected to device asynchronously: {0}: {1}", connectedDevice.DeviceName, connectedDevice.DeviceAddress);
 				});
 			}
 		}

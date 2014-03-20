@@ -11,6 +11,7 @@ namespace Rain.BluetoothPlugin
 		void StartScanForDevices();
 		void ConnectToDevice (string deviceAddress);
 		void ConnectToDevice(BluetoothDevice device);
+		Task<BluetoothDevice> ConnectToDeviceAsync (string deviceAddress);
 	}
 
 	public class DeviceDiscoveredEventArgs : EventArgs

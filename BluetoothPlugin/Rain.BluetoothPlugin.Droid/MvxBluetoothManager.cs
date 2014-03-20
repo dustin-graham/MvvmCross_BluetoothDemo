@@ -34,6 +34,8 @@ namespace Rain.BluetoothPlugin.Droid
 
 		private GattCallback _gattCallback;
 
+		TaskCompletionSource<BluetoothDevice> mConnectionTaskSource;
+
 		public MvxBluetoothManager ()
 		{
 			//how you might do the actual Bluetooth Work
@@ -54,6 +56,21 @@ namespace Rain.BluetoothPlugin.Droid
 		private Dictionary<string, Android.Bluetooth.BluetoothGatt> _connectedDevices = new Dictionary<string, Android.Bluetooth.BluetoothGatt> ();
 
 		#region IBluetoothAdapter implementation
+
+		public Task<BluetoothDevice> ConnectToDeviceAsync (string deviceAddress)
+		{
+			mConnectionTaskSource = new TaskCompletionSource<BluetoothDevice> ();
+			DoSomethingThatTakesAWhile (5000, mConnectionTaskSource);
+			return mConnectionTaskSource.Task;
+		}
+
+		private async void DoSomethingThatTakesAWhile(int duration, TaskCompletionSource<BluetoothDevice> completionSource) {
+			await Task.Delay (duration);
+			completionSource.SetResult (new BluetoothDevice () {
+				DeviceName = "Async Device",
+				DeviceAddress = "123456"
+			});
+		}
 
 		public async void StartScanForDevices ()
 		{
@@ -92,7 +109,9 @@ namespace Rain.BluetoothPlugin.Droid
 		}
 
 		private void ConnectToDevice (Android.Bluetooth.BluetoothDevice device) {
+			mConnectionTaskSource = new TaskCompletionSource<BluetoothDevice> ();
 			device.ConnectGatt (_appContext, false, _gattCallback);
+
 		}
 
 		#endregion
